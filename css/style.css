@@ -4,3 +4,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: red;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+}
+/* containers */
+
+#red_container{
+    background-color: red;
+}
+/* #green_container{
+    background-color: green;
+}
+#yellow_container{
+    background-color: yellow;
+}
+
+img{
+    
+} */
