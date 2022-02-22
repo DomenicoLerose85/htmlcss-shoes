@@ -9,23 +9,50 @@
     height: 100vh;
     width: 75%;
     margin: auto;
+}
 
+.container div{
+    height: 50%;
+    width: 100%;
 }
 /* header & nav bar */
 
+.nav{
+    width:100%;
+    height: 120px;
+    position: absolute;
+    top: 5%;
+    left: 85%;
+}
+
 ul li{
-    display: inline-block;
+    width: 40px;
+    height: 40px;
+    display: inline-block; 
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    display: block;
+    text-align: center;
 }
 
 
 /* containers */
 
-
-
 #red_container{
     width: 100%;
     height: 100vh;
     background-color: red;
+    position: relative;
 }
 #green_container{
     background-color: green;
@@ -37,8 +64,8 @@ ul li{
 
 img{
     width: 100%;
-    height: 72vh;
-    object-fit: cover;
+    height: 100%;
+    object-fit: contain;
 } 
 
 h1{
@@ -46,19 +73,8 @@ h1{
     text-align: center;
     color: yellow;
     font-family: 'Rubik Mono One', sans-serif;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50% );
 }
 
 .color_green{
-    font-size: 40px;
-    text-align: center;
     color: green;
-    font-family: 'Rubik Mono One', sans-serif;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -50% );
 }
