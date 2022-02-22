@@ -5,27 +5,60 @@
     box-sizing: border-box;
 }
 
-body{
-    background-color: red;
-}
-
 .container{
     height: 100vh;
-    width: 100%;
-    position: absolute;
+    width: 75%;
+    margin: auto;
+
 }
+/* header & nav bar */
+
+ul li{
+    display: inline-block;
+}
+
+
 /* containers */
 
+
+
 #red_container{
+    width: 100%;
+    height: 100vh;
     background-color: red;
 }
-/* #green_container{
+#green_container{
     background-color: green;
 }
 #yellow_container{
     background-color: yellow;
 }
+ 
 
 img{
-    
-} */
+    width: 100%;
+    height: 72vh;
+    object-fit: cover;
+} 
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: yellow;
+    font-family: 'Rubik Mono One', sans-serif;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+}
+
+.color_green{
+    font-size: 40px;
+    text-align: center;
+    color: green;
+    font-family: 'Rubik Mono One', sans-serif;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50% );
+}
